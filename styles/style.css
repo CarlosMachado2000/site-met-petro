@@ -1,0 +1,631 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Zera configuração dos navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Paleta de Cores */
+:root {
+  --orange: #d64;
+  --white: #fff;
+  --dark: #1e1c2a;
+  --green: #008000;
+  --nav: #3334332c;
+  --black: #000000;
+
+}
+
+/* Barra de navegação superior com menu*/
+nav {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--white);
+  box-shadow: 0 0.1rem 0.5rem #ccc;
+  padding: 0.3rem 3rem;
+  letter-spacing: 0.2rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+
+}
+
+.img-logo img {
+  width: 80px;
+  height: 70px;
+  padding: 5px;
+
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+}
+/* MENU HAMBURGUER */
+.nav-list ul{
+display: flex;
+justify-content: center;
+list-style: none;
+}
+
+.nav-item{
+  margin: 0 15px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: var(--orange);
+  font-weight: 400;
+}
+
+.mobile-menu-icon {
+ display: none;
+}
+
+.mobile-menu{
+  display: none; 
+}
+/* /Barra de navegação superior com menu*/
+/* INICIO */
+
+.principal {
+  padding: 150px 50px;
+  display: flex;
+}
+
+.img-empresa img {
+  height: 65vh;
+  width: 50vw;
+  object-fit: contain;
+  display: flex;
+}
+
+.inicio {
+  padding-left: 90px;
+  width: 100vh;
+}
+
+.inicio h1,
+h3 {
+  padding-top: 25px;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+.petro {
+  color: var(--orange);
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.petro2 {
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  padding-top: 0.5rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.produtos {
+  font-weight: 600
+}
+
+.inicio h6 {
+  padding-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* /INICIO */
+/* OBRAS */
+.obras {
+  background-color: var(--nav);
+}
+
+.obras-center {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.5rem;
+  background-color: var(--white);
+}
+
+.obras-span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.obras-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 45px;
+}
+
+.obras-box {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+
+.obras-box img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  width: 400px;
+  height: 440px;
+}
+
+.obras-container img {
+  display: flex;
+  border-radius: 5px;
+}
+
+.obras-layer h4 {
+  text-align: center;
+  width: 95%;
+  padding: 2rem;
+  font-size: 1.3rem;
+  color: var(--orange);
+}
+
+.btn-saiba {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  background-color: var(--orange);
+  border-radius: 90rem;
+}
+
+.btn-saiba a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-saiba a:hover {
+
+  color: var(--dark);
+}
+
+/* /OBRAS */
+/* CONTATO */
+.contato {
+  width: 100vw;
+  background-color: var(--orange);
+}
+
+.contato-container {
+  display: flex;
+}
+
+.map-box {
+  margin: 2%;
+  width: 40vw;
+}
+
+.contato-box {
+  width: 100vh;
+}
+
+.contato-conteudo {
+  padding-left: 5%;
+  display: flex;
+  font-size: 1rem;
+}
+
+.contato-conteudo h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 5rem;
+  align-items: center;
+}
+
+.nos {
+  color: var(--white)
+}
+
+.contato-conteudo i {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-top: 5px;
+}
+
+.contato-conteudo-social {
+  font-size: 1.2rem;
+  padding-top: 1.6rem;
+  width: 100vh;
+  padding-left: 30px;
+}
+
+.contato-conteudo-social i {
+  color: var(--white);
+  font-size: 2rem;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.contato-conteudo-social i:hover {
+  color: var(--nav);
+}
+
+/* /CONTATO */
+/* FOOTER */
+.footer p {
+  text-align: center;
+  justify-content: center;
+  color: var(--dark);
+  position: sticky;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* /FOOTER */
+
+
+/* PRODUTOS-OBRAS */
+
+
+.div-pricipal {
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+  background-color: var(--nav);
+  padding-bottom: 50px;
+}
+
+.imagem-produtos img {
+  width: 400px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.descricao {
+  width: 20vw;
+  height: 450px;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  background-color: var(--white);
+  border-radius: 15px;
+
+}
+
+.descricao h2 {
+  font-size: 2rem;
+  color: var(--orange);
+  text-shadow: var(--nav) 2px 3px 2px;
+}
+
+.descricao p {
+  margin: 20px;
+  font-size: 1rem;
+}
+
+.btn-saiba-produtos {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  background-color: var(--orange);
+  border-radius: 90rem;
+}
+
+.btn-saiba-produtos a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-saiba-produtos :hover {
+  color: var(--dark);
+}
+/* MAIS FOTOS */
+
+.sec-produtos h3 {
+  text-align: center;
+  color: var(--orange);
+  background-color: var(--white);
+  border-radius: 30px;
+  font-size: 3rem;
+}
+
+.mais-produtos{
+  flex-direction: row;
+}
+
+.produtos{
+width: 100vw;
+text-align: center;
+
+}
+
+.produtos img{
+  padding: 10px;
+  width: auto;
+  height: 50vh;
+  flex-wrap: wrap;
+  padding-bottom: 10px
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 785px) {
+  * {
+    overflow-x: hidden;
+  }
+  /* barra de navegação */
+
+  nav {
+    justify-content: left;
+  }
+
+  .img-logo {
+    width: 100%;
+  }
+
+  .img-logo img {
+    width: 60px;
+    height: 50px;
+    display: block;
+  }
+
+/* MENU HAMBURGUER */
+
+.nav-item{
+  display: none;
+}
+
+.mobile-menu-icon{
+display: block;
+padding-right: 50px;
+}
+
+.mobile-menu-icon button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-menu ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 1rem;
+
+}
+.mobile-menu .nav-item{
+  display: block;
+  padding-top: 1rem;
+}
+
+.mobile-menu{
+  display: none;
+  width: 100vw;
+  height: auto;
+}
+.mobile-menu button{
+  width: 100%;
+}
+
+
+.open{
+  display: block;
+}
+
+  /* conteudo inicio */
+  .principal {
+    width: 100vw;
+    flex-direction: column-reverse;
+    padding: 40px 8px;
+  }
+
+  .inicio {
+    width: 95vw;
+    padding-left: 8px;
+  }
+
+  .inicio h1 {
+    text-align: center;
+  }
+
+  .petro {
+    width: 100vw;
+
+  }
+
+  .img-empresa img {
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+  }
+
+  /* conteudo obras */
+  .obras {
+
+    width: 100vw;
+  }
+
+  .obras-center {
+    width: 100vw;
+  }
+
+  .obras-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .obras-box {
+    width: 95vw;
+
+  }
+
+  .obras-box img {
+    width: 100%;
+
+  }
+
+  /* Conteudo Produtos */
+  .div-pricipal {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-top: 70px;
+  }
+
+  .descricao {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: auto;
+  }
+
+  .imagem-produtos img {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .mais-produtos img {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+  }
+
+  /* conteudo contato */
+  .contato {
+    width: 100vw;
+  }
+
+  .contato-container {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .map-box {
+    width: 100vw;
+  }
+
+  .map-box iframe {
+    width: 95%;
+    margin: auto;
+  }
+
+  .contato-box {
+    width: 95vw;
+  }
+
+  .contato-conteudo h1 {
+    font-size: 2rem;
+  }
+
+  .contato-conteudo h2 {
+    font-size: 0.8rem;
+  }
+
+  .contato-conteudo-social {
+    font-size: 0.8rem;
+    padding-left: 8vw;
+  }
+
+  .footer {
+    font-size: 1px;
+  }
+}
+
+@media screan and (max-width: 1240px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .img-empresa img {
+    padding-left: 10px;
+  }
+
+  .inicio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .obras {
+    width: 100vw;
+    padding-right: 100px;
+  }
+
+  .contato {
+    width: 100vw;
+  }
+
+  .contato-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .map-box {
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .map-box iframe {
+    width: 45%;
+    height: 50%;
+  }
+
+  .contato-box {
+    width: 50vw;
+  }
+
+  .contato-conteudo {
+    font-size: 0.8rem;
+  }
+}
