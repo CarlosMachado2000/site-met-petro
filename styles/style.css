@@ -90,7 +90,9 @@ list-style: none;
 }
 
 .inicio {
-  padding-left: 90px;
+  margin-bottom: auto;
+ margin-top: auto;
+  padding-left: 10px;
   width: 100vh;
 }
 
@@ -127,6 +129,9 @@ p {
   padding-top: 25px;
   font-size: 1.2rem;
   font-weight: 700;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* /INICIO */
