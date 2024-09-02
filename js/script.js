@@ -8,4 +8,3 @@ function menuShow() {
         document.querySelector('.icon').src = "/img/close_black_36dp.svg";
     }
 }
-// função para fechar menu hamburguer
